@@ -81,8 +81,9 @@ print()
 
 # Print main function
 print('beta = ',beta.T)
-print('f(pipe) =', int(beta[0]), '+', int(beta[1]), '* length +', int(beta[2]), '* ln(length) +', int(beta[3]), '* diameter +', int(beta[4]), '* diameter^2')
-
+print('f(pipe) =', int(beta[0]), '+', int(beta[1]), '* length +', int(beta[2]), '* ln(length) +',
+      int(beta[3]), '* diameter +', int(beta[4]), '* diameter^2')
+print()
 
 # Testing the results of beta with sample
 for length in [1.5, 3, 19]:
